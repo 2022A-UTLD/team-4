@@ -1,7 +1,7 @@
 {
   "name": "team-4",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic WebPage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/2022A-UTLD/team-4.git"
   },
-  "author": "team_4",
+  "author": "Becker, Fabio, Norma",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/2022A-UTLD/team-4/issues"
   },
-  "homepage": "https://github.com/2022A-UTLD/team-4#readme"
+  "homepage": "https://github.com/2022A-UTLD/team-4#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
 }
