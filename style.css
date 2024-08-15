@@ -18,8 +18,8 @@ body {
 
 .box {
     width: 23%;
-    background-color: #121111;
-    border: 1px solid #111010;
+    background-color: #c3a0b1;
+    border: 1px solid #9d8b96;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
