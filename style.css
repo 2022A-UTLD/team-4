@@ -18,8 +18,8 @@ body {
 
 .box {
     width: 23%;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #121111;
+    border: 1px solid #111010;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -28,4 +28,12 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.text-box {
+    background-color: #0e0f0f; /* Color del fondo del texto */
+    padding: 10px;
+    border-top: 1px solid #0c0b0b;
+    color: #f6ebeb;
+    font-size: 14px;
 }
