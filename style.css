@@ -1,7 +1,7 @@
 .container-section-1 {
     font-family: Arial, sans-serif;
     margin: 10%;
-    padding: 0;
+    padding: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,14 +56,14 @@ html, body {
 .site-footer {
     background-color: #874c80;
     color: #fff;
-    padding: 40px 0;
+    padding: 10px 0; /* Reducir padding */
     margin-top: auto;
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 0; /* Reducir padding */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,15 +72,15 @@ html, body {
 
 .footer-section {
     flex: 1;
-    min-width: 200px;
-    margin: 10px 0;
+    min-width: 150px; /* Reducir min-width */
+    margin: 5px 0; /* Reducir margen */
 }
 
 .footer-section h4 {
-    margin-bottom: 15px;
-    font-size: 16px;
+    margin-bottom: 10px; /* Reducir margen inferior */
+    font-size: 14px; /* Reducir tamaño de fuente */
     text-transform: uppercase;
-    color: #ff9800; /* Color de los títulos */
+    color: #ff9800;
 }
 
 .footer-section ul {
@@ -89,13 +89,19 @@ html, body {
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Reducir margen inferior */
 }
 
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px; /* Añadir margen entre iconos */
 }
 
 .container-hero-section{
