@@ -33,9 +33,9 @@
 }
 
 .btn-purple{
-    border-color: purple;
+    border-color: #874c80;
 }
 .btn-purple:hover{
-    background-color: purple;
-    border-color: purple;
+    background-color: #874c80;
+    border-color: #874c80;
 }
