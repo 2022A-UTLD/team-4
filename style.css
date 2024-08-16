@@ -1,17 +1,11 @@
-body {
+.container-section-1{
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10%;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-color: #040404;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
     width: 80%;
     max-width: 1200px;
 }
@@ -36,4 +30,12 @@ body {
     border-top: 1px solid #0c0b0b;
     color: #f6ebeb;
     font-size: 14px;
+}
+
+.btn-purple{
+    border-color: #874c80;
+}
+.btn-purple:hover{
+    background-color: #874c80;
+    border-color: #874c80;
 }
