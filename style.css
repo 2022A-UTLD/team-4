@@ -18,9 +18,11 @@
 }
 
 .box img {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 100%; /* Se ajusta al ancho del contenedor padre */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 500px; /* Define un ancho máximo */
+    max-height: 400px; /* Define un alto máximo */
+    object-fit: cover; 
 }
 
 .text-box {
